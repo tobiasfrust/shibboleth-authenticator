@@ -16,10 +16,10 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ..
 
-.. image:: https://img.shields.io/travis/tobiasfrust/shibboleth-authenticator/dev.svg
+.. image:: https://img.shields.io/travis/tobiasfrust/shibboleth-authenticator/master.svg
         :target: https://travis-ci.org/tobiasfrust/shibboleth-authenticator
 
-.. image:: https://img.shields.io/coveralls/tobiasfrust/shibboleth-authenticator/dev.svg
+.. image:: https://img.shields.io/coveralls/tobiasfrust/shibboleth-authenticator/master.svg
         :target: https://coveralls.io/github/tobiasfrust/shibboleth-authenticator
 
 .. image:: https://img.shields.io/github/license/tobiasfrust/shibboleth-authenticator.svg

@@ -28,7 +28,7 @@ history = open('CHANGES.md').read()
 tests_require = [
     'check-manifest>=0.35',
     'coverage>=4.0',
-    'invenio-accounts>=1.0.0b1',
+    'invenio-accounts>=1.0.0b3',
     'invenio-userprofiles>=1.0.0a9',
     'isort>=4.2.5',
     'pydocstyle>=1.1.1',
@@ -58,13 +58,13 @@ extras_require = {
         'Sphinx>=1.5.1',
     ],
     'mysql': [
-        'invenio-oauthclient[mysql]>=1.0.0a12',
+        'invenio-oauthclient[mysql]>=1.0.0a13',
     ],
     'postgresql': [
-        'invenio-oauthclient[postgresql]>=1.0.0a12',
+        'invenio-oauthclient[postgresql]>=1.0.0a13',
     ],
     'sqlite': [
-        'invenio-oauthclient[sqlite]>=1.0.0a12',
+        'invenio-oauthclient[sqlite]>=1.0.0a13',
     ],
     'tests': tests_require,
 }

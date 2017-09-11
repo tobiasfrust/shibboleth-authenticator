@@ -28,8 +28,8 @@ history = open('CHANGES.md').read()
 tests_require = [
     'check-manifest>=0.35',
     'coverage>=4.0',
-    'invenio-accounts>=1.0.0b3',
-    'invenio-userprofiles>=1.0.0a9',
+    'invenio-accounts>=1.0.0b8',
+    'invenio-userprofiles>=1.0.0b1',
     'isort>=4.2.5',
     'mock>=1.3.0',
     'pydocstyle>=1.1.1',
@@ -48,8 +48,7 @@ install_requires = [
     'Flask>=0.11.1',
     'Flask-Login>=0.3.2',
     'Flask-WTF>=0.13.1',
-    'python3-saml>=1.2.3',
-    'invenio-base>=1.0.0a9',
+    'python3-saml>=1.2.6',
     'uritools>=1.0.1',
 ]
 

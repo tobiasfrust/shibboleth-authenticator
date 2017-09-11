@@ -31,6 +31,7 @@ tests_require = [
     'invenio-accounts>=1.0.0b3',
     'invenio-userprofiles>=1.0.0a9',
     'isort>=4.2.5',
+    'mock>=1.3.0',
     'pydocstyle>=1.1.1',
     'pytest-cache>=1.0',
     'pytest-cov>=1.8.0',
@@ -58,13 +59,13 @@ extras_require = {
         'Sphinx>=1.5.1',
     ],
     'mysql': [
-        'invenio-oauthclient[mysql]>=1.0.0a13',
+        'invenio-oauthclient[mysql]>=1.0.0b2',
     ],
     'postgresql': [
-        'invenio-oauthclient[postgresql]>=1.0.0a13',
+        'invenio-oauthclient[postgresql]>=1.0.0b2',
     ],
     'sqlite': [
-        'invenio-oauthclient[sqlite]>=1.0.0a13',
+        'invenio-oauthclient[sqlite]>=1.0.0b2',
     ],
     'tests': tests_require,
 }
